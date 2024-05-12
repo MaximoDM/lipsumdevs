@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LIPSUM DEVS</title>
+  <link rel="stylesheet" href="assets/styles/style.css">
+  <audio id="clickSound" src="assets/media/click.wav"></audio>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap">
+
+</head>
+
+<body>
+  <header class=" header">
+    <a href="index.html"><img src="assets/imgs/headerbanner.jpg" alt="Encabezado" class="header__image"></a>
+  </header>
+
+  <nav class="nav">
+    <ul class="nav__menu">
+      <li class="nav__item"><a href="index.html" class="nav__link">Inicio</a></li>
+      <li class="nav__item"><a href="servicios.html" class="nav__link">Servicios</a></li>
+      <li class="nav__item"><a href="precios.html" class="nav__link">Precios</a></li>
+      <li class="nav__item"><a href="contacto.html" class="nav__link">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="contacto" class="contact-section">
+      <h2 class="contact-section__title">Contáctanos</h2>
+
+      <div class="contact-container">
+        <form class="contact-form">
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" required>
+
+          <label for="email">Correo Electrónico:</label>
+          <input type="email" id="email" name="email" required>
+
+          <label for="mensaje">Mensaje:</label>
+          <textarea id="mensaje" name="mensaje" required></textarea>
+
+          <button type="submit">Enviar</button>
+        </form>
+
+        <div class="contact-info">
+          <img src="assets/imgs/city.jpg" alt="Imagen del lugar" class="contact-info__image">
+          <div class="contact-info__details">
+            <h3>Dirección:</h3>
+            <p>123 Calle Ficticia, Ciudad Imaginaria</p>
+            <h3>Teléfono:</h3>
+            <p>+123 456 789</p>
+            <h3>Correo Electrónico:</h3>
+            <p>LIPSUM_DEVS@empresa.com</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p class="footer__copyright">&copy; 2024 LIPSUM DEVS</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
